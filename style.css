@@ -1,0 +1,50 @@
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #202632;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.advice-container{
+    width: 500px;
+    height: 300px;
+    background-color: #313A49;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advice-number{
+    font-size: 15px;
+    color: #5FFBB4;
+    margin-top: 40px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.advice{
+    width: 90%;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 40px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 25px;
+}
+.roll{
+    width: 60px;
+    height: 60px;
+    opacity: 0.6;
+    background-color: #5FFBB4;
+    border-radius: 50%;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.roll:hover{
+    opacity: 1;
+}
+.fa-dice-five{
+    font-size: 30px;
+}

@@ -1,0 +1,9 @@
+@media(max-width:500px){
+    .advice-container{
+        width: 90%;
+        height: 300px;
+    }
+    .advice{
+        font-size: 20px;
+    }
+}
