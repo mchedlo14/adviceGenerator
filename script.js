@@ -3,7 +3,8 @@ let url = 'https://api.adviceslip.com/advice';
 //ADVICE #11
 let getAdvice = () => {
     fetch(url,{
-        method:'GET'
+        method:'GET',
+        cache: 'no-cache'
     }).then((response) =>{
         return response.json()
     }).then((responseData)=>{
